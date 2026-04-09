@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #000000;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  width: 100%;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.premium-shadow {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.premium-shadow-hover:hover {
+  box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.2);
+}
