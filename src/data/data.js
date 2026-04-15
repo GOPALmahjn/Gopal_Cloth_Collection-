@@ -12,7 +12,7 @@ export const products = [
     name: "Elegant Black Evening Dress",
     price: 2499,
     category: "Women",
-    image: "https://images.unsplash.com/photo-1539109132314-34a933ee5bb7?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&q=80&w=800",
     description: "Sophisticated dress for special occasions."
   },
   {
@@ -44,7 +44,7 @@ export const products = [
     name: "Kids' Playful T-Shirt Set",
     price: 799,
     category: "Kids",
-    image: "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&q=80&w=800",
     description: "Soft cotton t-shirts for active kids."
   },
   {
@@ -52,7 +52,7 @@ export const products = [
     name: "Tailored Slim Fit Trousers",
     price: 1499,
     category: "Men",
-    image: "https://images.unsplash.com/photo-1473966968600-fa804b86940a?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&q=80&w=800",
     description: "Perfectly fitted trousers for a modern silhouette."
   },
   {
@@ -60,7 +60,7 @@ export const products = [
     name: "Bohemian Maxi Skirt",
     price: 1799,
     category: "Women",
-    image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&q=80&w=800",
     description: "Flowy skirt with a beautiful bohemian print."
   }
 ];

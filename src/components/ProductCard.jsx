@@ -5,6 +5,10 @@ import { motion } from 'framer-motion';
 const ProductCard = ({ product }) => {
   const whatsappUrl = `https://wa.me/91XXXXXXXXXX?text=Hi, I am interested in ordering the ${product.name} (ID: ${product.id}) for ₹${product.price}.`;
 
+  const handleImageError = (e) => {
+    e.target.src = 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=800'; // Placeholder image
+  };
+
   return (
     <motion.div 
       initial={{ opacity: 0, scale: 0.95 }}
@@ -17,6 +21,7 @@ const ProductCard = ({ product }) => {
         <img 
           src={product.image} 
           alt={product.name} 
+          onError={handleImageError}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
         />
         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center">
